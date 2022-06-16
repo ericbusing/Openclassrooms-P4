@@ -357,7 +357,7 @@ a:hover {
     justify-content: center;
 }
 
-.bouton-envoyer button {
+.bouton-envoyer, button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -747,7 +747,7 @@ a {
     text-align: center;
     font-weight: lighter;
     max-width: 520px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 p {
@@ -756,7 +756,7 @@ p {
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 .h1 {
@@ -793,7 +793,7 @@ h2 {
 
 .med-width-whitespace {
     max-width: 800px;
-    margin: auto auto auto auto;
+    margin: auto;
     box-shadow: 0px 0px 0px #000000;
 }
 
@@ -827,12 +827,20 @@ h4 {
 .black-background {
     background-color: rgba(165, 147, 99, 0.7);
     padding: 0 40px;
-    height: 460px;
+    height: 100%;
     margin: 0;
     display: flex;
     align-items: center;
     text-align: center;
     width: 50%;
+}
+
+.black-background div {
+    padding: 20px;
+}
+
+.black-background div h2 {
+    margin-top: 0;
 }
 
 .bold-link {
@@ -984,6 +992,27 @@ h4 {
 
     .nav>li:hover {
         background: rgba(0, 0, 0, .08);
+    }
+
+    .black-background {
+        padding: 0 10px;
+        width: 85%;
+        height: 100%;
+    }
+
+    .black-background div {
+        padding: 20px;
+    }
+
+    .black-background div h2 {
+        margin-top: 0;
+    }
+    .portfolio-row {
+        margin: 0;
+    }
+    .portfolio-row div {
+        padding: 0;
+        margin-top: 50px;
     }
 
     .text-banniere, .bouton-envoyer, button {
