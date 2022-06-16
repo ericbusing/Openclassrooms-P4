@@ -440,6 +440,8 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .bouton-footer {
@@ -871,16 +873,12 @@ h4 {
     text-decoration: underline !important;
 }
 
-.bgc-white {
-    background-color: #FFFFFF;
-}
-
 .bgc-dark-slate-blue {
     background-color: #364577;
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: rgb(98, 76, 52);
 }
 
 .tc-white {
@@ -888,7 +886,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: rgb(98, 76, 52);
     color: #FFFFFF !important;
 }
 

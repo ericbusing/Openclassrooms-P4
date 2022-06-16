@@ -1982,7 +1982,8 @@ pre code {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
+    width: 70%;
 }
 
 @media (min-width:768px) {
@@ -1994,12 +1995,6 @@ pre code {
 @media (min-width:992px) {
     .container {
         width: 970px
-    }
-}
-
-@media (min-width:1200px) {
-    .container {
-        width: 1170px
     }
 }
 
