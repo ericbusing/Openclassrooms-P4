@@ -60,6 +60,8 @@ a:hover {
 
 .bloc-sm {
     padding: 20px 50px;
+    margin: 0;
+    width: 100%;
 }
 
 .bg-center,
@@ -355,16 +357,13 @@ a:hover {
 .bouton-envoyer {
     display: flex;
     justify-content: center;
-}
-
-.bouton-envoyer, button {
-    display: flex;
-    justify-content: center;
     align-items: center;
-    width: 20%
+    width: 100%;
 }
-
-form {
+.bouton-envoyer button {
+    width: 20%;
+}
+ form {
     display: flex;
     flex-direction: column;
     line-height: 2;
@@ -427,6 +426,30 @@ ul {
 .col-sm-12 h2,
 h3 {
     text-align: left;
+}
+
+.banniere h1 {
+    text-align: center;
+}
+
+.bouton-banniere {
+    text-align: center;
+}
+
+.col-sm-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bouton-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.texte-footer {
+    text-align: center;
+    color: white;
 }
 
 @media (min-width: 768px) {
@@ -807,10 +830,6 @@ h4 {
     margin-top: 24px;
 }
 
-.white {
-    color: #FFFFFF !important;
-}
-
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -825,7 +844,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgb(98, 76, 52, 0.5);
     padding: 0 40px;
     height: 100%;
     margin: 0;
@@ -841,6 +860,10 @@ h4 {
 
 .black-background div h2 {
     margin-top: 0;
+}
+
+.black-background p {
+    color: white !important;
 }
 
 .bold-link {
@@ -875,7 +898,7 @@ h4 {
 }
 
 .ltc-white {
-    color: #FFFFFF !important;
+    color: #FFFFFF;
     font-size: 16px;
 }
 
@@ -1007,15 +1030,19 @@ h4 {
     .black-background div h2 {
         margin-top: 0;
     }
+
     .portfolio-row {
         margin: 0;
     }
+
     .portfolio-row div {
         padding: 0;
         margin-top: 50px;
     }
 
-    .text-banniere, .bouton-envoyer, button {
+    .text-banniere,
+    .bouton-envoyer,
+    button {
         width: 100%;
     }
 
