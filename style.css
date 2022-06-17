@@ -1023,9 +1023,13 @@ h4 {
     }
 
     .bloc-md {
-        padding: 0 20px;
+        padding: 20px;
         margin: 0;
         width: 100%;
+    }
+
+    .bloc-md h2 {
+        margin-top: 0;
     }
 
     .col-sm-4 {
