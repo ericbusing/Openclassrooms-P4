@@ -266,9 +266,10 @@ a:hover {
 }
 
 .navbar {
+    display: flex;
     margin-bottom: 0;
     z-index: 1;
-    padding: 20px;
+    padding: 20px 70px;
 }
 
 .navbar-brand {
@@ -278,19 +279,16 @@ a:hover {
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
-}
-
-.navbar-brand img {
     height: 50px;
     margin: 0 5px 0 0;
     display: inline;
 }
 
-.nav-center .navbar-brand img {
+.nav-center .navbar-brand {
     margin: 0;
 }
 
-.navbar .nav {
+.nav {
     padding-top: 2px;
     margin-right: -16px;
     float: right;
@@ -455,6 +453,19 @@ h3 {
     color: white;
 }
 
+.navbar a {
+    display: flex;
+    justify-content: end;
+    font-size: 16px;
+    height: 50px;
+    align-items: center;
+}
+
+.lien-nav {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
 @media (min-width: 768px) {
 
     .nav>li .dropdown-menu a,
@@ -475,6 +486,14 @@ h3 {
         width: 100%;
     }
 
+    .navbar a {
+        display: flex;
+        justify-content: end;
+        font-size: 16px;
+        height: 50px;
+        align-items: center;
+    }
+
     .nav-center .navbar-header,
     .nav-center .navbar-brand,
     .nav-center .nav>li {
@@ -482,7 +501,7 @@ h3 {
         display: inline-block;
     }
 
-    .nav-center .site-navigation {
+    .nav-center {
         position: relative;
         width: 100%;
         right: 0;
@@ -888,12 +907,11 @@ h4 {
 
 .btn-atomic-tangerine {
     background: rgb(98, 76, 52);
-    color: #FFFFFF !important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956 !important;
-    color: #FFFFFF !important;
+    color: black !important;
 }
 
 .ltc-white {
@@ -971,6 +989,8 @@ h4 {
 
 @media (max-width: 767px) {
     .navbar {
+        display: flex;
+        flex-direction: column ;
         padding: 0;
         padding-top: 20px;
     }
@@ -979,45 +999,35 @@ h4 {
         display: flex;
         justify-content: center;
         margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .lien-nav {
+        display: flex;
+        justify-content: center;
+        width: 100%;
     }
 
     .navbar-collapse {
         display: flex;
         width: 100%;
         height: 70px;
-        border-radius: 40px;
         padding: 0;
         overflow-x: hidden;
         -webkit-box-shadow: none;
         box-shadow: none;
     }
 
-    .site-navigation {
+    .navbar a {
         display: flex;
         justify-content: center;
         margin: 0;
-        width: 100%;
         height: 50px;
         background-color: white;
         border: none;
     }
 
-    .site-navigation li {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 48%;
-    }
-
-    .site-navigation li a {
-        font-size: 18px;
-    }
-
-    .site-navigation li:hover {
-        background-color: #c27956 !important;
-    }
-
-    .nav>li:hover {
+    .nav>a:hover {
         background: rgba(0, 0, 0, .08);
     }
 

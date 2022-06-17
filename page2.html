@@ -33,20 +33,14 @@
 <body class="page-container">
 
 	<!-- bloc-0 -->
-	<header class="bgc-white l-bloc">
+	<header class="l-bloc">
 		<nav class="navbar">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html">
-					<img src="img/agence-la-panthere-monochrome.png"
-						alt="Logo de l'agence de web design La Panthère, avec une tête de panthère et le nom de l'agence." />
-				</a>
+				<img class="navbar-brand" src="img/agence-la-panthere-monochrome.png"
+					alt="Logo agence web design La Panthère basée à Lyon." />
 			</div>
-			<div class="navbar-collapse">
-				<ul class="site-navigation nav navbar-nav">
-					<li>
-						<a href="index.html">Accueil</a>
-					</li>
-				</ul>
+			<div class="lien-nav">
+				<a href="index.html">Accueil</a>
 			</div>
 		</nav>
 	</header>
@@ -69,30 +63,30 @@
 		<div class="formulaire-content">
 			<form id="form_1">
 				<div class="form-group">
-					<label>
+					<label for="name">
 						Nom ou entreprise
 					</label>
 					<input id="name" class="form-control" required />
 				</div>
 				<div class="form-group">
-					<label>
+					<label for="email">
 						Adresse email
 					</label>
 					<input id="email" class="form-control" type="email" required />
 				</div>
 				<div class="form-group">
-					<label>
+					<label for="form-control">
 						Comment nous avez-vous connu ?
 					</label>
 					<input class="form-control" type="email" required id="input_504" />
 				</div>
 				<div class="form-group">
-					<label>
+					<label for="message">
 						Brief de votre projet (Ajoutez autant de détails que nécessaire)
 					</label><textarea id="message" class="form-control-projet" rows="4" cols="50" required></textarea>
 				</div>
 				<div class="bouton-envoyer">
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine btn-rd" type="submit">
 						Envoyer
 					</button>
 				</div>
