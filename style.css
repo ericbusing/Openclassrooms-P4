@@ -466,6 +466,14 @@ h3 {
     display: flex;
     justify-content: end;
 }
+
+.avis {
+    font-size: 20px;
+}
+
+.pdg {
+    font-size: 18px;
+}
 @media (min-width: 768px) {
 
     .nav>li .dropdown-menu a,
