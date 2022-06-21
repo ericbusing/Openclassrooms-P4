@@ -987,6 +987,14 @@ h4 {
     .black-background {
         width: 75%;
     }
+
+    .center-block {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 120px;
+        height: auto;
+    }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
@@ -1037,6 +1045,14 @@ h4 {
 
     .nav>a:hover {
         background: rgba(0, 0, 0, .08);
+    }
+
+    .center-block {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 130px;
+        height: auto;
     }
 
     .bloc-md {

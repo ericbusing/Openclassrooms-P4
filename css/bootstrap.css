@@ -7758,8 +7758,8 @@ button.close {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    width: 120px;
-    height: 115px;
+    width: 140px;
+    height: auto;
 }
 
 .pull-right {
